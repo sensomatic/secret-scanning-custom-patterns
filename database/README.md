@@ -250,7 +250,7 @@ _version: v0.1_
 <summary>Start Pattern</summary>
 
 ```regex
-(\A|\b)CREATE\s+(LOGIN|USER)\s+[^\s\x00-\x08]+\s+WITH\s+PASSWORD\s+=\s+N?'
+(\A|\b)(?i)CREATE\s+(LOGIN|USER)\s+[^\s\x00-\x08]+\s+WITH\s+PASSWORD\s+=\s+N?'
 ```
 
 </details><details>
